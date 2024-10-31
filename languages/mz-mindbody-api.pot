@@ -1,0 +1,820 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: mZoo Mindbody Interface - Schedule, Events, Staff "
+"Display\n"
+"POT-Creation-Date: 2021-04-30 07:58-0500\n"
+"PO-Revision-Date: 2018-05-29 21:09-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: mz-mindbody.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: mz-mindbody.php:209 mz-mindbody.php:244
+msgid "MZ Mindbody Api plugin has been deactivated."
+msgstr ""
+
+#: mz-mindbody.php:221
+msgid "MZ Mindbody Api requires Composer autoloading, which is not configured."
+msgstr ""
+
+#: mz-mindbody.php:231
+msgid "MZ Mindbody Api requires PHP version"
+msgstr ""
+
+#: src/Admin/Admin.php:182 src/Admin/Admin.php:229
+#: src/Backend/SettingsPage.php:117
+msgid "YOUR MBO APP NAME"
+msgstr ""
+
+#: src/Admin/Admin.php:183 src/Admin/Admin.php:230
+#: src/Backend/SettingsPage.php:129
+msgid "YOUR MINDBODY API KEY"
+msgstr ""
+
+#: src/Admin/Admin.php:284
+#, php-format
+msgid ""
+"%1$s Now requires php version %2$s or greater. Check with your hosts before "
+"upgrading if unsure."
+msgstr ""
+
+#. translators: Tell which version of php required.
+#: src/Admin/Admin.php:319
+#, php-format
+msgid "Sorry, but \"MZ Mindbody API\" requires PHP %1$s or greater."
+msgstr ""
+
+#: src/Admin/Admin.php:342
+msgid "No transients to clear."
+msgstr ""
+
+#. translators: Number of transients cleared.
+#: src/Admin/Admin.php:347
+#, php-format
+msgid "Cleared %d transients. Page reloads will re-set them."
+msgstr ""
+
+#. translators: Show the token string.
+#: src/Admin/Admin.php:383
+#, php-format
+msgid "Error getting token %s ."
+msgstr ""
+
+#. translators: let user know that a new token was fetched and stored and display it.
+#: src/Admin/Admin.php:389
+#, php-format
+msgid "Fetched and stored %s ."
+msgstr ""
+
+#. translators: Wrap two elements in html code elements.
+#: src/Admin/Admin.php:442
+#, php-format
+msgid ""
+"Once credentials have been set and saved, look for %1$s in the box below to "
+"confirm settings are correct and credentials work."
+msgstr ""
+
+#: src/Admin/Admin.php:480
+#, php-format
+msgid ""
+"Once credentials have been set and activated, look for %1$s in the \n"
+"\t             second (Get Classes Response) box below to confirm settings "
+"are correct."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:70
+msgid "Basic Settings"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:78
+msgid "Events"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:86
+msgid "Shortcodes"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:94
+msgid "Advanced"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:104
+msgid "Enter your mindbody credentials below."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:115
+msgid "App Name"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:127
+msgid "API Key"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:139
+msgid "Staff Name"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:141
+msgid "YOUR SOURCE NAME"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:151
+msgid "Staff Name is MBO Sourcename"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:152
+msgid "App adds and underscore when Sourcename used as Staff Name."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:163
+msgid "Staff Password "
+msgstr ""
+
+#: src/Backend/SettingsPage.php:165
+msgid "YOUR MINDBODY PASSWORD"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:175
+msgid "Primary (default) MBO Site ID"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:177
+msgid "-99"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:207
+msgid "Debug Output"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:218
+msgid "Event IDs"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:220
+msgid "12345, 34, 64"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:230
+msgid "Event Display Duration"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:232
+msgid "60"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:242
+msgid "Schedule Display"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:253
+msgid "Staff Display"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:264
+msgid "Events Display"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:275
+msgid "Date Format"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:277
+msgid "l, F j"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:287
+msgid "Time Format"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:289
+msgid "g:i a"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:299
+msgid "Schedule Types"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:300
+msgid ""
+"Which MBO schedule types to display in \"schedule\" (defaults to Class.)"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:314 src/Backend/SettingsPage.php:522
+msgid "Clear Transients"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:325
+msgid "Update MBO Site Token"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:336
+msgid "Max number of daily API calls"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:348
+msgid "Seconds to store schedule transient for"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:349
+msgid "Default is 43200 (12 hours - 60 x 60 x 12)"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:360
+msgid "Display Class Sub Information"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:361
+msgid ""
+"When checked, schedule display will contain information about class "
+"instructor substitution."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:372
+msgid "Template Override System"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:373
+msgid ""
+"You can override any of the files in the plugin/frontend/views directory by "
+"placing them in your theme top-level directory within a directory named "
+"templates/mindbody."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:383
+msgid "Log MBO API Calls"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:384
+msgid ""
+"When checked, API calls are logged for up to seven days in wp-content/"
+"mbo_api.log."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:395
+msgid "Log File Path"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:396
+msgid "File path when logging API calls."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:408
+msgid "Reset Class \"Owners\""
+msgstr ""
+
+#. translators: wrap button/anchor html around call to action for registering dev credentials with Mindbody.
+#: src/Backend/SettingsPage.php:421
+#, php-format
+msgid ""
+"If you do not have them yet, visit the %1$s MindBodyOnline developers "
+"website %2$s and register for developer credentials."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:425
+msgid "Detailed instructions here"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:435
+msgid ""
+"Attributes for schedule shortcodes. For boolean attributes use numeral 1 for "
+"true. Lists should be separated with commas"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:437
+msgid "'week' or 'day'. Defaults to 'week'"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:438
+msgid "(numeric) List of IDs of MBO locations to display"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:439
+msgid "(numeric) Which MBO account to display schedule for"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:440
+msgid "(boolean) Option to show a filter by class type, teacher."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:441
+msgid "(boolean) Display schedule in grid format as opposed to list"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:442
+msgid "(boolean) Allow users to sign in directory from WordPress site"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:443
+msgid ""
+"Remove any of following from display: teacher, signup, duration, session-type"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:444
+msgid ""
+"List of MBO-registered session types to display. (Previously attribute was "
+"called 'class_types')"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:445
+msgid "List of MBO-registered SessionTypeIds to retrieve."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:446
+msgid ""
+"(boolean) If true, modal pop-up window will display registrants of class"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:447
+msgid "(boolean) True will hide cancelled classes"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:448
+msgid "(boolean) Display number of registrants in class"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:449
+msgid ""
+"(int) Allow user to select between grid and list view. 1 defaults to "
+"horizontal, 2 to grid."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:462
+msgid "Grid and Filter can be added like this:"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:479
+msgid "(int) Which MBO account to display staff for."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:480
+msgid "(boolean) Set to `1` to display as responsive grid."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:481
+msgid ""
+"(string) Comma-separated string of staff names to not display. Case "
+"insensitive."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:482
+msgid ""
+"(boolean) Set to `1` to include staff members without photos. Default is not "
+"to display them."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:484
+msgid ""
+"To display staff page as a responsive gallery of images with pop-up "
+"biographies, use "
+msgstr ""
+
+#: src/Backend/SettingsPage.php:496
+msgid "(int) Which MBO account to display events for."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:497
+msgid "List of (int) MBO locations to display events for."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:498
+msgid "(boolean) Set to `1` to display events as a list."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:499
+msgid "(int) Limit the number of events to display."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:500
+msgid ""
+"(boolean) Set to `1` to include location filter (if multiple locations "
+"included)."
+msgstr ""
+
+#: src/Backend/SettingsPage.php:501
+msgid "(boolean) Set to `1` to display events for current week only."
+msgstr ""
+
+#. translators: Pull up an option string for number of times API has been called.
+#: src/Backend/SettingsPage.php:512
+#, php-format
+msgid ""
+"<p>MBO charges for daily API calls over 1000. Number of calls today: %1$s.</"
+"p> <p>Site will email admin at 1200 calls less than this number and stop "
+"calling MBO at this number.</p> <p>Default: %2$s.</p>"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:530
+msgid "Update Site Token"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:539
+msgid "Reset Class Owners"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:543
+#, php-format
+msgid ""
+"%1$sThis is the matrix of which instructors %2$s \"own\" classes (MBO API "
+"doesn't tell us.) It is automatically regenerated daily with a cron job. \n"
+"                                You can see what it looks like by pressing "
+"this button and viewing output in the browser console.%3$s"
+msgstr ""
+
+#: src/Backend/SettingsPage.php:559
+msgid "Test Credentials"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:40
+msgid "Username"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:41
+msgid "Password"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:42
+msgid "Login"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:43
+msgid "Log Out"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:44
+msgid "Sign Up"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:45
+msgid "Log in to Sign up"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:46 src/Schedule/ScheduleItem.php:483
+msgid "Manage on MindBody Site"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:47
+msgid "login"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:48
+msgid "logout"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:49
+msgid "signup"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:50
+msgid "create-account"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:51
+msgid "or"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:52 src/Frontend/views/grid_schedule.php:78
+#: src/Schedule/Display.php:437
+msgid "with"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:53
+msgid "day"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:54
+msgid "Your Account"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:55
+msgid "Confirm Sign-Up"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:56
+msgid "shortcode"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:57
+msgid "Register with MindBodyOnline"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:58
+msgid "Logged in to MindBodyOnline"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:59
+msgid "Schedule"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:60 src/Schedule/Display.php:452
+msgid "All Locations"
+msgstr ""
+
+#: src/Common/GlobalStrings.php:61
+msgid "No events scheduled yet for this period."
+msgstr ""
+
+#: src/Common/GlobalStrings.php:62
+msgid ""
+"There was an error retrieving the data. Details below. Could be a network "
+"connection. Consider trying again."
+msgstr ""
+
+#: src/Common/GlobalStrings.php:63 src/Events/Display.php:243
+msgid "Location"
+msgstr ""
+
+#: src/Events/Display.php:223
+msgid "Error returning events from Mindbody."
+msgstr ""
+
+#: src/Events/Display.php:229
+msgid "No Events in current cycle"
+msgstr ""
+
+#: src/Events/Display.php:240
+msgid "Date"
+msgstr ""
+
+#: src/Events/Display.php:241
+msgid "Time"
+msgstr ""
+
+#: src/Events/Display.php:242
+msgid "Event"
+msgstr ""
+
+#: src/Events/Display.php:320
+msgid "Sorry but there was an error retrieving the events."
+msgstr ""
+
+#: src/Events/Display.php:321 src/Schedule/Display.php:446
+msgid "No biography listed for this staff member."
+msgstr ""
+
+#: src/Events/Display.php:370
+msgid "Error returning events to display from Minbbody."
+msgstr ""
+
+#. translators: Explanation displaying a range of events between start, end date.
+#. translators: start and end dates with "to" or "-" between them.
+#: src/Events/Display.php:381 src/Frontend/views/event_listing_container.php:15
+#, php-format
+msgid "Displaying events from %1$s to %2$s."
+msgstr ""
+
+#: src/Events/SingleEvent.php:346 src/Schedule/ScheduleItem.php:482
+#: src/Schedule/ScheduleItem.php:587
+msgid "Sign-Up"
+msgstr ""
+
+#: src/Frontend/views/create_mbo_account.php:13
+msgid "Create MBO Account"
+msgstr ""
+
+#: src/Frontend/views/event_listing_container.php:24
+msgid "Previous Events"
+msgstr ""
+
+#: src/Frontend/views/event_listing_container.php:25
+msgid "Future Events"
+msgstr ""
+
+#: src/Frontend/views/event_listing_full.php:49
+#: src/Frontend/views/horizontal_schedule.php:84
+msgid "at"
+msgstr ""
+
+#: src/Frontend/views/event_listing_list.php:64
+msgid "Error Retrieving Events"
+msgstr ""
+
+#. translators: What is date of start of currently displayed week.
+#: src/Frontend/views/grid_schedule.php:39
+#, php-format
+msgid "Week of %1$s"
+msgstr ""
+
+#. translators: Give a start and end date range for displayed classes.
+#: src/Frontend/views/grid_schedule.php:48
+#: src/Frontend/views/horizontal_schedule.php:23
+#, php-format
+msgid "No Classes To Display (%1$s - %2$s)"
+msgstr ""
+
+#: src/Frontend/views/grid_schedule.php:94
+msgid "Duration:"
+msgstr ""
+
+#: src/Frontend/views/horizontal_schedule.php:37
+msgid "Class Name"
+msgstr ""
+
+#: src/Frontend/views/horizontal_schedule.php:41
+msgid "Instructor"
+msgstr ""
+
+#: src/Frontend/views/horizontal_schedule.php:46
+msgid "Class Type"
+msgstr ""
+
+#: src/Frontend/views/modal_footer.php:14
+msgid "My Classes"
+msgstr ""
+
+#: src/Frontend/views/modal_footer.php:15
+#: src/Frontend/views/modal_footer.php:25
+msgid "Manage on Mindbody Site"
+msgstr ""
+
+#: src/Frontend/views/modal_footer.php:16
+#: src/Frontend/views/modal_footer.php:29
+msgid "Logout"
+msgstr ""
+
+#: src/Frontend/views/schedule_container.php:20
+msgid "Previous Week"
+msgstr ""
+
+#: src/Frontend/views/schedule_container.php:21
+msgid "Following Week"
+msgstr ""
+
+#: src/Frontend/views/staff_modal.php:28
+msgid "No biography for this staff member yet."
+msgstr ""
+
+#: src/Libraries/MboV5Api.php:201 src/Libraries/MboV6Api.php:432
+msgid "Large amount of MBO API Calls"
+msgstr ""
+
+#: src/Libraries/MboV5Api.php:202
+msgid "Check your website and MBO. There seems to be an issue."
+msgstr ""
+
+#. translators: Notify user of number of calls to api versus limit configured in WP option.
+#: src/Libraries/MboV6Api.php:435
+#, php-format
+msgid ""
+"Check your website and MBO. There have been %1$s calls to the API so far "
+"today. You have set a maximum of %2$s in the Admin."
+msgstr ""
+
+#: src/Libraries/WpOsa.php:609
+msgid "Choose File"
+msgstr ""
+
+#: src/Libraries/WpOsa.php:630
+msgid "Choose Image"
+msgstr ""
+
+#: src/Schedule/Display.php:279
+msgid "Error returning schedule from MBO for shortcode display."
+msgstr ""
+
+#: src/Schedule/Display.php:298 src/Schedule/Display.php:304
+msgid "Grid View"
+msgstr ""
+
+#: src/Schedule/Display.php:299 src/Schedule/Display.php:303
+msgid "Horizontal View"
+msgstr ""
+
+#: src/Schedule/Display.php:332
+msgid "Sunday"
+msgstr ""
+
+#: src/Schedule/Display.php:333
+msgid "Monday"
+msgstr ""
+
+#: src/Schedule/Display.php:334
+msgid "Tuesday"
+msgstr ""
+
+#: src/Schedule/Display.php:335
+msgid "Wednesday"
+msgstr ""
+
+#: src/Schedule/Display.php:336
+msgid "Thursday"
+msgstr ""
+
+#: src/Schedule/Display.php:337
+msgid "Friday"
+msgstr ""
+
+#: src/Schedule/Display.php:338
+msgid "Saturday"
+msgstr ""
+
+#: src/Schedule/Display.php:442
+msgid "Registrants"
+msgstr ""
+
+#: src/Schedule/Display.php:443
+msgid "Error retrieving class details."
+msgstr ""
+
+#: src/Schedule/Display.php:444
+msgid "Sorry but there was an error retrieving the schedule."
+msgstr ""
+
+#: src/Schedule/Display.php:445
+msgid "substitute for"
+msgstr ""
+
+#: src/Schedule/Display.php:447
+msgid "by teacher, class type"
+msgstr ""
+
+#: src/Schedule/Display.php:448 src/Schedule/ScheduleItem.php:644
+msgid "morning"
+msgstr ""
+
+#: src/Schedule/Display.php:449 src/Schedule/ScheduleItem.php:648
+msgid "afternoon"
+msgstr ""
+
+#: src/Schedule/Display.php:450 src/Schedule/ScheduleItem.php:646
+msgid "evening"
+msgstr ""
+
+#: src/Schedule/Display.php:451
+msgid "Filter"
+msgstr ""
+
+#: src/Schedule/Display.php:491
+msgid "Error returning schedule from MBO for display."
+msgstr ""
+
+#: src/Schedule/Display.php:524
+msgid "Error. Please try again."
+msgstr ""
+
+#: src/Schedule/RetrieveClassOwners.php:67
+msgid "Error deducing MBO class owners."
+msgstr ""
+
+#: src/Schedule/RetrieveRegistrants.php:120
+msgid "No registrants yet."
+msgstr ""
+
+#: src/Schedule/ScheduleItem.php:493
+msgid "Cancelled"
+msgstr ""
+
+#: src/Schedule/ScheduleItem.php:571
+msgid "Registrations Available"
+msgstr ""
+
+#: src/Schedule/ScheduleItem.php:579
+msgid "Waitlist Only"
+msgstr ""
+
+#: src/Schedule/ScheduleItem.php:589
+msgid "Waitlist"
+msgstr ""
+
+#: src/Staff/Display.php:108
+msgid "Error displaying Staff from Mindbody."
+msgstr ""
+
+#. translators: Assign schedule to instructoru using posessive apostrophe s, like "Jaimie's".
+#: src/Staff/StaffMember.php:156
+#, php-format
+msgid "See %s&apos;s Schedule"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "mZoo Mindbody Interface - Schedule, Events, Staff Display"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.mzoo.org/mz-mindbody-wp"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Display staff, events and class schedules from Mindbody Online. Customizable."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "mZoo.org"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.mZoo.org/"
+msgstr ""
